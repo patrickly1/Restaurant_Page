@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    background-color: #bcddff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #72b6ff;
+    padding: 10px;
+}
+
+nav, button {
+        width: 150px;
+        height: 50px;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #007bff;
+        color: #fff; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        margin: 0px;
+}    
+
+.home_content, .menu_content, .about_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.home_title {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.home_intro {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home_hours {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.home_location {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.menu_title {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu_benny, .menu_soup, .menu_fish, .menu_ribs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.about_content {
+    font-size: 40px;
+    font-weight: lighter;
+}
